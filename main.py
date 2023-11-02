@@ -3,7 +3,7 @@ import psycopg2
 from classEmployee import Employee
 
 conn = None
-# (?????)
+
 
 try:
     df = pd.read_csv("data/employeedata.csv", delimiter=";")
@@ -57,10 +57,10 @@ except Exception as e:
     print(e)
 
 try:
-    conn = psycopg2.connect(database="postgres",
-                            user="postgres",
-                            password="2171985",
-                            host="localhost", port="5432")
+    conn = psycopg2.connect(database="",
+                            user="",
+                            password="",
+                            host="", port="")
 
 
 
@@ -98,28 +98,3 @@ finally:
 
 
 
-
-    # ??????????????????????
-    # 123.2422.23.142
-    # username
-    # dsnjdk73bjdn
-    # booking - backoffice
-    # 6541
-
-
-# Σύνδεση στη βάση δεδομένων πραγματοποιήθηκε επιτυχώς.
-# (1, 'John', 'Doe', 35, 'New York', 70000, 'Marketing')
-# (2, 'Jane', 'Smith', 45, 'Francisco', 85000, 'Engineering')
-# (3, 'Michael', 'Johnson', 32, 'Los Angeles', 60000, 'HR')
-# (4, 'Emily', 'Garcia', 18, 'Chicago', 90000, 'Engineering')
-# (5, 'William', 'Martinez', 28, 'Houston', 72000, 'Marketing')
-# (6, 'Laura', 'Rodriguez', 64, 'Miami', 61000, 'HR')
-# (7, 'James', 'Wilson', 61, 'Seattle', 88000, 'Engineering')
-# (8, 'Olivia', 'Brow', 25, 'Diego', 71000, 'Marketing')
-# (9, 'Liam', 'Miller', 55, 'Dallas', 86000, 'Engineering')
-# (10, 'Sophia', 'Anderson', 47, 'Boston', 59000, 'HR')
-# (11, 'David', 'Wilson', 52, 'Austin', 72000, 'Marketing')
-# (12, 'Emma', 'Brow', 22, 'Detroit', 87000, 'Engineering')
-# (13, 'Ethan', 'Miller', 31, 'Phoenix', 71000, 'Marketing')
-# (14, 'Olivia', 'Brow', 67, 'Denver', 89000, 'Engineering')
-# (15, 'Aiden', 'Martinez', 21, 'Atlanta', 60000, 'HR')
