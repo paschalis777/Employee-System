@@ -1,0 +1,16 @@
+ ;first_name;last_name;email;age;city;department;salary
+1;John;Doe;johndoe@example.com;35;New York;Marketing;70000
+2;Jane;Smith;Smith@example.com;45;Francisco;Engineering;85000
+3;Michael;Johnson;Johnson@example.com;32;Los Angeles;HR;60000
+4;Emily;Garcia;Garcia@example.com;18;Chicago;Engineering;90000
+5;William;Martinez;Martinez@example.com;28;Houston;Marketing;72000
+6;Laura;Rodriguez;Rodriguez@example.com;64;Miami;HR;61000
+7;James;Wilson;Wilson@example.com;61;Seattle;Engineering;88000
+8;Olivia;Brow;Brow@example.com;25;Diego;Marketing;71000
+9;Liam;Miller;Miller@example.com;55;Dallas;Engineering;86000
+10;Sophia;Anderson;Anderson@example.com;47;Boston;HR;59000
+11;David;Wilson;Wilson@example.com;52;Austin;Marketing;72000
+12;Emma;Brow;Brow3@example.com;22;Detroit;Engineering;87000
+13;Ethan;Miller;Miller2@example.com;31;Phoenix;Marketing;71000
+14;Olivia;Brow;Brow9@example.com;67;Denver;Engineering;89000
+15;Aiden;Martinez;Martinez7@example.com;21;Atlanta;HR;60000
